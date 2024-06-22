@@ -1,12 +1,19 @@
-
-/* 
-
-    You can write your own styles here...
+body {
+ background-image: url(https://www.supermarketnews.com/sites/supermarketnews.com/files/istock25071766medium.jpg);
+}
+li {
+    list-style: none;
+    text-align: left;
+    border: 1px solid beige;
+    background: white;
+}
+.icono > span {
+    font-size: 26px;
+    visibility: hidden;
     
+}
+.icono:hover > span {
+    visibility: visible;
     
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+}
+  
